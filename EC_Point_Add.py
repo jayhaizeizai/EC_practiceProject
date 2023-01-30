@@ -3,7 +3,7 @@ from EC_Point import EC_Point
 from Config import a,p
 
 
-def EC_Point_add(EC_Point1:EC_Point,EC_Point2:EC_Point):
+def EC_Point_Add(EC_Point1:EC_Point,EC_Point2:EC_Point):
     x1=EC_Point1.x
     y1=EC_Point1.y
     x2=EC_Point2.x
