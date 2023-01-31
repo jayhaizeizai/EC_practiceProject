@@ -2,6 +2,7 @@ from EC_Point import EC_Point
 from EC_Point_Add import EC_Point_Add
 from EC_Point_Mul import EC_Point_Mul
 from modular_sqrt import modular_sqrt
+from check_ECDSA_Signature import check_ECDSA_Signature
 
 '''
 x1=int(input("x1:"))
@@ -23,7 +24,8 @@ d=int(input("d:"))
 EC_Point4=EC_Point_Mul(EC_Point1,d)
 
 EC_Point4.displayPoint()
+
 '''
 
-print: modular_sqrt(15,17)
 
+print(check_ECDSA_Signature(13,10,9,6))

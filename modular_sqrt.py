@@ -88,4 +88,3 @@ def modular_sqrt(a, p):
         b = (b * g) % p
         r = m
 
-print(modular_sqrt(15, 17)) # should return 6

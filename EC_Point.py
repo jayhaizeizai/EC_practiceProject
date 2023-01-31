@@ -5,3 +5,4 @@ class EC_Point:
 
     def displayPoint(self):
         print("(",self.x,",",self.y,")")
+

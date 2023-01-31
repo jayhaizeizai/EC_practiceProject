@@ -10,3 +10,4 @@ def EC_Point_Mul(EC_Point_P:EC_Point, d):
     if (d%2==1): 
         EC_Point_T = EC_Point_Add(EC_Point_T,EC_Point_P)
     return EC_Point_T
+
