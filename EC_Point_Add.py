@@ -1,6 +1,6 @@
 from Crypto.Util.number import inverse
 from EC_Point import EC_Point
-from Config import a,p
+from EC_Config import a,p
 
 
 def EC_Point_Add(EC_Point1:EC_Point,EC_Point2:EC_Point):
