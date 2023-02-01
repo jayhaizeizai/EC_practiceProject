@@ -10,4 +10,3 @@ def Generate_EC_Point_from_x(x):
     EC_Point_Ans=EC_Point(x,y)
     return EC_Point_Ans
 
-Generate_EC_Point_from_x(10).displayPoint()

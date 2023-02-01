@@ -6,3 +6,6 @@ class EC_Point:
     def displayPoint(self):
         print("(",self.x,",",self.y,")")
 
+    def displayPoint_hex(self):
+        print("(",hex(self.x),",",hex(self.y),")")
+

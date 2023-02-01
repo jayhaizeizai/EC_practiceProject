@@ -1,6 +1,6 @@
 from EC_Point import EC_Point
 from EC_Point_Add import EC_Point_Add
-from EC_Config import a,p
+from EC_Config import a,p,EC_Point_G
 
 def EC_Point_Mul(EC_Point_P:EC_Point, d):
     if (d==1) :
